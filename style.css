@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: beige;
+    color:
+}
+
+.header{
+    background-color: rgb(146, 3, 115);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+a:link, a:visited{
+    color: rgb(226, 224, 224);
+    background-color:rgb(146, 3, 115);
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 20px;
+}
+
+a:hover, a:active{
+    color: white;
+}
+#login{
+    padding-left: 820px;
+}
+.container{
+    background-color: white;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    
+    border-style: ridge;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+}
+h4{
+    text-align: right;
+    padding-right: 100px;
+    font-family:cambria;
+}
+
+.form{
+    font-weight: bold;
+    text-align: center;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.sidenote{
+    color: red;
+    padding-right: 400px;
+}
+h1{
+    padding-left: 40px;
+    font-family: helvetica;
+}
+button{
+    color: white;
+    background-color: rgb(6, 136, 28);
+    
+}
+    
+.div-login{
+    padding-left: 40px;
+   
+}
+h5{
+    padding-left: 30px;
+    font-family: helvetica;
+}
