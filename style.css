@@ -1,9 +1,12 @@
+
 body{
     margin: 0px;
     padding: 0px;
     background-color: beige;
-    color:
-}
+    float: none;
+    width: 100%;
+} 
+
 
 .header{
     background-color: rgb(146, 3, 115);
@@ -32,7 +35,7 @@ a:hover, a:active{
     background-color: white;
     display: inline-block;
     box-sizing: border-box;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     padding-right: 100px;
     
     border-style: ridge;
@@ -40,10 +43,15 @@ a:hover, a:active{
     margin-top: 10px;
     
 }
-h4{
+h6{
     text-align: right;
     padding-right: 100px;
     font-family:cambria;
+    line-height: 0px;
+}
+#foot{
+    font-size: 20px;
+    line-height: 0px;
 }
 
 .form{
@@ -52,9 +60,17 @@ h4{
     padding-left: 20px;
     font-size: 18px;
 }
+#name{
+    border-radius: 6px;
+    height: 30px;
+}
 .sidenote{
     color: red;
-    padding-right: 400px;
+    text-align: left;
+    font-size: 15px;
+    padding-left: 150px;
+    line-height: 0px;
+    
 }
 h1{
     padding-left: 40px;
@@ -62,15 +78,26 @@ h1{
 }
 button{
     color: white;
-    background-color: rgb(6, 136, 28);
+    background-color: rgb(65, 207, 89);
+    border: 1px solid antiquewhite;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
     
 }
     
-.div-login{
-    padding-left: 40px;
-   
+#login1{
+    padding: 10px;
+    background-color: rgb(81, 81, 247);
+    color: antiquewhite;
+    border-radius: 5px;
+    margin-right: 1000px;
+    border: 1px solid antiquewhite;
+    cursor: pointer;
+  
 }
 h5{
     padding-left: 30px;
     font-family: helvetica;
 }
+
